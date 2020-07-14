@@ -1,0 +1,12 @@
+/* ----------reset css start */
+*{margin: 0;padding: 0;}
+body{font-size: 14px;}
+ul{list-style-type: none;}
+a{color:#666;text-decoration: none;}
+a:hover{color: #c33;border-bottom: 2px solid #c33;}
+/* ----------reset css end */
+
+/* ----------mycss start */
+.wid1000{width: 1000px; margin:0 auto;}
+
+/* ----------mycss end */

@@ -1,0 +1,573 @@
+*{margin: 0;padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* ..........top css start.......... */
+.top{
+    height: 30px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.top .left{
+    height: 30px;
+    width: 460px;
+    margin-left: 176px;  
+    float: left;
+}
+.top .left li{
+    width: 30px;
+    height: 30px;
+    list-style: none;  
+    float: left;
+}
+.top .left .one{background-image: url(../images/index-sp1.png);background-position: 0 0;}
+.top .left .two{
+    width: 240px;
+    height: 30px;
+    font-size: 13px;
+    color: #666666;
+}
+.top .left .two p{
+    height: 30px;
+    width: 450px;
+    line-height: 30px;
+}
+.top .left .three{background-image: url(../images/index-sp1.png);background-position: 0 -28px;}
+.top .left .four{background-image: url(../images/index-sp1.png);background-position: 0 -57px;}
+.top .left .five{background-image: url(../images/index-sp1.png);background-position: 0 -85px;}
+.top .left .six{background-image: url(../images/index-sp1.png);background-position: 0 -114px;}
+.top .right{
+    height: 30px;
+    width: 340px;
+    margin-right: 176px; 
+    float: right; 
+    line-height: 30px;
+}
+.top .right li{
+    width: 30px;
+    height: 30px;
+    list-style: none;  
+    float: left;
+    padding-right: 50px;
+}
+.top .right p{
+    height: 30px;
+    width: 100px;
+    line-height: 30px;   
+    text-align: center; 
+    font-size: 13px;
+    color: #666666;
+    border-right: 1px solid #e9e9e9;
+    margin: auto;
+}
+.top .right .one{
+    background-image: url(../images/index-sp1.png);
+    background-repeat: no-repeat;
+    background-position: -50px -2px;
+}
+/* .........top css end.......... */
+/* ........header css start.......... */
+
+.header{
+    height: 100px;
+    width: 1100px;
+    /* border: 1px solid skyblue;   */
+    margin: auto;
+}
+.header big{
+    height: 100px;
+    width: 1000px;
+}
+.header h1{
+    width: 300px;
+    height: 60px;
+    background-image: url(../images/nav_logo.png);
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.header li{
+    list-style: none;
+}
+.header .fr{
+    margin-right: 40px;
+}
+.header .sm{
+    float: left;
+    padding-right: 40px; 
+}
+.header .small a{
+    color: #666;
+}
+.header .small a:hover{
+    color: #cc3333;
+
+}
+/* ........header css end.......... */
+
+/* ......nav css start...... */
+.nav{
+    height: 360px;
+    /* border: 1px solid skyblue; */
+    background-image: url(../images/20170328144936PC-BANNER.jpg);
+    overflow: hidden;
+}
+/* ......nav css end...... */
+/* ......advantage css start...... */
+.advantage{
+    height: 610px;
+    background-color: #eeeeee;
+    /* border: 1px solid lawngreen; */
+}
+.advantage .line .titleone{
+    width: 240px;
+    font-size:30px;
+    margin: auto;
+}
+.advantage .line{
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    margin: 50px auto 20px;
+    /* padding-right: 45px; */
+}
+.advantage  .line .left,.advantage  .line .right{
+    width: 350px;
+    height: 10px;
+    border-bottom: 1px solid #cccccc;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+.advantage  .line .right{
+    margin-left: 45px;
+}
+.advantage .data{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;   
+}
+.advantage .data li{
+    width: 140px;
+}
+.advantage .data .users{
+    width: 60px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background: url(../images/index-sp2.png);
+    background-position: 0 -117px;
+    float: left;
+}
+.advantage .data .money1{
+    width: 60px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background: url(../images/index-sp2.png);
+    background-position: -116px -125px;
+    float: left;
+}
+.advantage .data .money2{
+    width: 60px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background: url(../images/index-sp2.png);
+    background-position: -239px -117px;
+    float: left;
+}
+.advantage .data ul{
+    width: 105px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+.advantage .data li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.advantage .data .one,.advantage .data .two,.advantage .data .three{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 310px;
+    height: 120px;
+    margin-right: 35px;
+    box-shadow: 0 2px #999999;
+}
+.advantage  .titletwo{
+    width: 1300px;
+    font-size:30px;
+    margin: 10px auto 20px;
+}
+.advantage .protect{
+    display: flex;
+    width: 1000px;
+    height: 160px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 65px;
+    margin-bottom: 60px;
+    box-shadow: 0 2px #999999;
+}
+.advantage .protect .one,.advantage .protect .two,.advantage .protect .three{
+    width: 290px;
+    height: 100px;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    display: flex;
+}
+.advantage .protect .logo1,.advantage .protect .logo2,.advantage .protect .logo3{
+    width: 104px;
+    height: 104px;
+    background-image: url(../images/index-sp2.png);
+}
+.advantage .protect .logo1{
+    background-position: 0px -320px;
+
+}
+.advantage .protect .logo2{
+    background-position:-116px -320px;
+
+}
+.advantage .protect .logo3{
+    background-position: -237px -320px;
+
+}
+.advantage .protect .txt1,.advantage .protect .txt2,.advantage .protect .txt3{
+    width: 170px;
+    height: 75px;
+    margin-top: 20px;
+}
+.advantage .protect p{
+    font-size: 24px;
+}
+.advantage .protect span{
+    font-size: 12px;
+}
+
+/* ......advantage css end...... */
+/* ......app css start...... */
+.app{
+    height: 475px;
+    width: 1000px;
+    /* border: 1px solid skyblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.app h2{
+    font-size: 35px;
+    margin-top: 60px;
+    font-weight: normal;
+    width: 120px;
+}
+.app .dowland{
+    float: left;
+   
+    width: 630px;
+    height: 350px;
+    border-bottom: 1px solid #a9b67e;
+}
+.app .dowland .link{
+    width: 630px;
+    height: 250px;
+    display: flex;
+}
+.app .dowland .left{
+    width: 155px;
+    height: 185px;
+    margin-left: 140px;
+    margin-top: 45px;
+}
+.app .dowland .left p,.app .dowland .right p{widows: 155px;font-size: 14px;text-align: center;padding-top: 13px;}
+.app .dowland .right{
+    width: 155px;
+    height: 185px;
+    margin-left: 87px;
+    margin-top: 45px;
+}
+.app .dowlandText{
+    width: 630px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.app .appright{
+    float: right;
+    background-image:url(../images/index_bg.png);
+    width: 310px;
+    height: 475px;
+    margin-top: -80px;
+}
+
+
+/* ......app css end...... */
+/* ......about css start...... */
+.about{
+    height: 575px;
+    background-color:#eeeeee;
+    /* padding-top: 50px; */
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.about .aboutMain{
+    height: 475px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px #999999;
+    overflow: hidden;
+}
+.about .top{
+    height: 180px;
+    width: 1000px;
+    overflow: hidden;
+}
+.about .botom{
+    height: 225px;
+    width: 1000px;
+    overflow: hidden;
+}
+.about .aboutMain h1{
+    font-weight: normal;
+    width: 950px;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.about .aboutMain .first{
+    margin-top: 22px;
+   width: 1000px;
+   overflow: hidden;
+}
+.about .aboutMain .left1{
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.about .aboutMain .right1{
+    float: right;
+    margin-right: 25px;
+}
+.about .listleft{
+    border-top: 1px solid #a9b67e;
+    float: left;
+    height: 120px;
+    width: 430px;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 25px;
+    overflow: hidden;
+}
+.about li{
+    list-style: none; 
+}
+.about  a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+.about  .one{
+    margin-top: 5px;
+}
+.about  li:before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #e2a9a9;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.about .listright{
+    float: right;
+    height: 120px;
+    width: 430px;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 25px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about .aboutMain .left2{
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.about .aboutMain .right2{
+    float: right;
+    margin-right: 25px;
+}
+.about .aboutMain .second{
+   /* margin-top: 22px; */
+   width: 1000px;
+   overflow: hidden;
+}
+.about span{float: right;}
+.photolist{
+    height: 160px;
+    display: flex;
+}
+
+.about .ry1{
+    margin-left: 45px;
+}
+.about .ry1 img{
+    margin-left: 30px;
+}
+.about .ry,.about .ry1{
+    width: 180px;
+    width: 170px;
+    margin-right: 100px;
+}
+.about .ry,.about .ry1 p{
+    font-size: 12px;
+    width: 152px;
+    text-align: center;
+}
+/* ......about css end...... */
+/* ......footer css end...... */
+.footer{
+    height: 340px;
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+.footer .top{
+    width: 1000px;
+    height: 140px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+.footer .top .phone,.footer .top .mid,.footer .top .qrcode{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid skyblue;  */
+    overflow: hidden;  
+}
+.footer .top .phone p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer .phone .phnumber{
+    width: 100px;
+}
+.footer .top .phone p span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.footer .top  .mid span{
+    width: 75px;
+    text-align: center;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #d2d2d2;
+    
+}
+.footer .top .mid ul{
+    margin-top: 25px;
+}
+.footer .top .mid p{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .top .mid li{
+    list-style: none;
+}
+.footer .top .qrcode .pinpai{
+    margin-top: 30px;
+    width: 90px;
+}
+.footer .top .qrcode .top,.footer .top .qrcode .bottom{
+    width: 90px;
+    height: 25px;
+    background-image: url(../images/index-sp1.png);
+}
+.footer .top .qrcode .top{
+    /* border: 1px solid skyblue; */
+    background-position: 0 -216px;
+    margin-top: 10px;
+    float: left;
+}
+.footer .top .qrcode .bottom{
+    /* border: 1px solid skyblue; */
+    background-position: 0 -288px;
+    margin-top: 10px;
+    float: left;
+}
+.footer .top .qrcode .ma{
+    width: 130px;
+    height: 130px;
+    float: right;
+    margin-top: -80px;
+}
+.footer .bottom{
+    width: 1000px;
+   
+    margin: auto;
+    overflow: hidden;
+}
+.footer .bottom .littlelogo{
+    margin-top: 60px;
+}
+.footer .bottom ul{
+    width: 620px;
+    height: 30px;
+    margin: auto;
+}
+.footer .bottom li{
+    list-style: none;
+    float: left;
+    margin-right: 65px;
+}
+.footer .bottom .l1{
+    width: 90px;
+    height: 30px;
+    background-image: url(../images/index-sp1.png);
+    background-position: 0 -331px ;
+    /* border: 1px solid skyblue; */
+}
+.footer .bottom .l2{
+    width: 90px;
+    height: 30px;
+    background-image: url(../images/index-sp1.png);
+    background-position: 0 -375px;
+    /* border: 1px solid skyblue; */
+}
+.footer .bottom .l3{
+    width: 90px;
+    height: 30px;
+    background-image: url(../images/index-sp1.png);
+    background-position: 0 -421px;
+    /* border: 1px solid skyblue; */
+}
+.footer .bottom .l4{
+    width: 90px;
+    height: 30px;
+    background-image: url(../images/index-sp1.png);
+    background-position:  0 -460px;
+    /* border: 1px solid skyblue; */
+}
+.footer .bottom p{
+    width: 1000px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* ......footer css end...... */
+
